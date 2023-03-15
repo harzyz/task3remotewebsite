@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+.main-header {
+    display: flex;
+    width: 95%;
+    margin: 10px auto;
+}
+.menu-logo {
+    display: none;
+}
+.main-nav {
+    display: flex;
+    width: calc(95% - 84px);
+    justify-content: space-between;
+    margin: 0 20px;
+}
+.main-nav_item {
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+}
+.main-nav_right {
+    margin: 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+.main-nav_right button {
+    margin: 0 15px;
+    background: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.main-nav_right button:focus{
+    outline: 0;
+}
+.main-section {
+    width: 80%;
+    height: 528px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+.left-section {
+    width: 45%;
+    height: 500px;
+    padding: 0 10px;
+}
+.left-section2 {
+    display: none;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+p {
+    font-size: 16px;
+    color: hsl(0, 0%, 41%);
+}
+.left-section button {
+    background: black;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: 50px 0;
+    border: 0;
+    cursor: pointer;
+}
+.left-section button:focus {
+    outline: 0;
+}
+.right-section {
+    width: 45%;
+    height: 528px;
+}
+.bottom_left-section {
+    display: flex;
+    justify-content: space-between;
+}
+.desk {
+    width: 100%;
+    height: 528px;
+}
+.mob {
+    display: none;
+}
+.databiz {
+    width: 90px;
+    height: 15px;
+}
+.audiophile {
+    width: 70px;
+    height: 30px;
+}
+.meet {
+    width: 80px;
+    height: 18px;
+}
+.maker {
+    width: 75px;
+    height: 18px;
+}
+.menu-collapse {
+    display: none;
+}
+.wrapper {
+    position: relative;
+}
+.menu-collapse {
+    display: none;
+}
+.snoop {
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+    font-size: 12px;
+    left: 120px;
+    display: none;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.snoop2 {
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    align-items: center;
+    font-size: 12px;
+    width: 100px;
+    top: 30px;
+    left: 280px;
+    display: none;
+    box-sizing: border-box;
+    padding-right: 8px;
+    padding-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.kill {
+    margin: 0 auto;
+}
+.snoop-list li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+#sub-finish1 {
+    list-style-image: url(./images/icon-todo.svg);
+}
+#sub-finish2 {
+    list-style-image: url(./images/icon-calendar.svg);
+}
+#sub-finish3 {
+    list-style-image: url(./images/icon-reminders.svg);
+}
+#sub-finish4 {
+    list-style-image: url(./images/icon-planning.svg);
+}
+.snoop2-list {
+    list-style: none;
+    padding: 0px;
+}
+.snoop2-list li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+@media screen and (max-width:700px) {
+    .menu-logo {
+        display: inline-block;
+    }
+    .wrapper {
+        position: relative; 
+    }
+    .main-nav {
+        display: none;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-section {
+        flex-direction: column-reverse;
+        width: 99%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .right-section {
+        width: 99%;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .desk {
+        display: none;
+    }
+    .mob {
+        display: block;
+        height: 300px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .left-section{
+        width: 95%;
+        height: 100%;
+    }
+    .left-section1 {
+        display: none;
+    }
+    .left-section2 {
+        display: block;
+    }
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    .left-section button {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .bottom_left-section {
+        width: 99%;
+        margin: 30px auto;
+    }
+    .btn {
+        text-align: center;
+    }
+    .menu-collapse {
+        position: absolute;
+        background-color: white;
+        width: 65%;
+        right: 0;
+        display: none;
+        height: 100vh;
+        z-index: 1000;
+    }
+    .cancel-icon {
+        position: absolute;
+        right: 12px;
+    }
+       .menu-nav span {
+        display: block;
+        margin: 10px;
+    }
+    .finish {
+        padding: 0;
+        margin-top: 60px;
+        margin-left: 18px;
+    }
+    .finish li {
+        list-style: none;
+        margin: 22px 0;
+        margin-right: auto;
+        font-size: 14px;
+    }
+    .drop-down {
+        margin-left: 10px;
+    }
+    .login-reg {
+        font-size: 13px;
+        text-align: center;
+    }
+    .login-reg button {
+        width: 150px;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid grey;
+        background-color: white;
+    }
+    #sub-finish {
+        display: none;
+    }
+    #sub-finish5 {
+        display: none;
+    }
+    #sub-finish1 {
+        list-style-image: url(./images/icon-todo.svg);
+    }
+    #sub-finish2 {
+        list-style-image: url(./images/icon-calendar.svg);
+    }
+    #sub-finish3 {
+        list-style-image: url(./images/icon-reminders.svg);
+    }
+    #sub-finish4 {
+        list-style-image: url(./images/icon-planning.svg);
+    }
+    .snoop {
+        display: none;
+    }
+    .snoop2 {
+        display: none;
+    }
+}

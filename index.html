@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Remote work</title>
+
+    <link rel="shortcut icon" href="images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+
+
+    <div class="menu-collapse" id="demo">
+      <img src="images/icon-close-menu.svg" alt="" class="cancel-icon" onclick="myClose()" />
+      <div class="menu-nav">
+
+        <ul class="finish">
+          <li>Features
+            <img src="images/icon-arrow-down.svg" id="dropDown" onclick="myFeatures()" class="drop-down"/>
+          </li>
+            <ul id="sub-finish">
+              <li id="sub-finish1">Todo List</li>
+              <li id="sub-finish2">Calender</li>
+              <li id="sub-finish3">Reminders</li>
+              <li id="sub-finish4">Planning</li>
+            </ul>
+
+          <li>Company
+            <img src="images/icon-arrow-down.svg" id="companyDrop" onclick="myCompany()" class="drop-down"/>
+            <span id="pray1"></span>
+          </li>
+
+            <ul id="sub-finish5">
+              <li id="sub-finish6">History</li>
+              <li id="sub-finish7">Our Team</li>
+              <li id="sub-finish8">Blog</li>
+            </ul>
+
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+
+        <div class="login-reg">
+          <span>Login</span>
+          <button>Register</button>
+        </div>
+            
+      </div>
+    </div>
+  
+    <div class="wrapper" id="container">
+
+      <header class="main-header">
+        <div class="logo">
+          <img src="images/logo.svg" alt="snap" />
+          <img
+            src="images/icon-menu.svg"
+            alt="menu"
+            class="menu-logo"
+            onclick="myFunction()" />
+        </div>
+
+        <nav class="main-nav">
+          <div class="main-nav_items">
+            <span class="main-nav_item">           
+            Features <img onclick="myiDont()" id="iDontKnow" src="images/icon-arrow-down.svg" alt=""/>
+            </span>
+            <span class="main-nav_item"></span>
+            Company <img onclick="myiDonted()" id="iDontKnow2" src="images/icon-arrow-down.svg" alt=""/>
+            </span>
+            <span class="main-nav_item">Careers</span>
+            <span class="main-nav_item">About</span>
+          </div>
+
+          <div class="main-nav_right">
+            <span>Login</span>
+            <button>Register</button>
+          </div>
+        </nav>
+        <div class="snoop" id="snoop">
+          <div class="kill">
+          <ul class="snoop-list">
+            <li id="sub-finish1">Todo List</li>
+            <li id="sub-finish2">Calender</li>
+            <li id="sub-finish3">Reminders</li>
+            <li id="sub-finish4">Planning</li>
+          </ul>
+          </div>
+        </div>
+        <div class="snoop2" id="snoop2">
+          <div class="kill">
+          <ul class="snoop2-list">
+            <li id="sub-finish6">History</li>
+            <li id="sub-finish7">Our Team</li>
+            <li id="sub-finish8">Blog</li>
+          </ul>
+          </div>
+        </div>
+      </header>
+
+      <main class="main-section">
+        <section class="left-section">
+          <div class="left-section1">
+            <h1>
+              Make <br />
+              remote work
+            </h1>
+            <p>
+              Get your team in sync, no matter your location. <br />
+              Streanline processes, create team rituals, and <br />
+              watch productivity soar.
+            </p>
+            <button>Learn more</button>
+          </div>
+
+          <div class="left-section2">
+            <h1>Make remote work</h1>
+            <p>
+              Get your team in sync, no matter your location. Streanline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <div class="btn"><button>Learn more</button></div>
+          </div>
+
+          <div class="bottom_left-section">
+            <img src="images/client-databiz.svg" alt="" class="databiz" id="goat" />
+            <img src="images/client-audiophile.svg" alt="" class="audiophile" id="goat"/>
+            <img src="images/client-meet.svg" alt="" class="meet" id="goat"/>
+            <img src="images/client-maker.svg" alt="" class="maker" id="goat" />
+          </div>
+        </section>
+        <section class="right-section">
+          <img src="images/image-hero-desktop.png" alt="" class="desk" />
+          <img src="images/image-hero-mobile.png" alt="" class="mob" id="goat" />
+        </section>
+      </main>
+      <script src="./main.js"></script>
+    </div>
+  </body>
+</html>
