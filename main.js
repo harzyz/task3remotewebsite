@@ -45,6 +45,8 @@ function myiDont() {
     if(vul === true){
         document.getElementById("snoop").style.display = 'block'
         document.getElementById("iDontKnow").src = vel   
+        document.getElementById("snoop2").style.display = 'none'
+        document.getElementById("iDontKnow2").src = "images/icon-arrow-down.svg"
     }else{
         document.getElementById("snoop").style.display = 'none'
         document.getElementById("iDontKnow").src = "images/icon-arrow-down.svg"
@@ -57,7 +59,9 @@ function myiDonted() {
     let vel = val.replace("images/icon-arrow-down.svg","./images/icon-arrow-up.svg")
     if(vul === true){
         document.getElementById("snoop2").style.display = 'block'
-        document.getElementById("iDontKnow2").src = vel   
+        document.getElementById("iDontKnow2").src = vel  
+        document.getElementById("snoop").style.display = 'none' 
+        document.getElementById("iDontKnow").src = "images/icon-arrow-down.svg"
     }else{
         document.getElementById("snoop2").style.display = 'none'
         document.getElementById("iDontKnow2").src = "images/icon-arrow-down.svg"
