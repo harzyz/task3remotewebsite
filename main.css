@@ -247,7 +247,7 @@ p {
         position: absolute;
         right: 12px;
     }
-       .menu-nav span {
+    .menu-nav span {
         display: block;
         margin: 10px;
     }
@@ -257,19 +257,24 @@ p {
         margin-left: 18px;
     }
     .finish li {
+        cursor: pointer;
         list-style: none;
         margin: 22px 0;
         margin-right: auto;
         font-size: 14px;
     }
     .drop-down {
+        cursor: pointer;
         margin-left: 10px;
     }
     .login-reg {
         font-size: 13px;
         text-align: center;
+        cursor: pointer;
     }
     .login-reg button {
+        font-size: 13px;
+        cursor: pointer;
         width: 150px;
         height: 30px;
         border-radius: 10px;
@@ -284,15 +289,19 @@ p {
     }
     #sub-finish1 {
         list-style-image: url(./images/icon-todo.svg);
+        cursor: pointer;
     }
     #sub-finish2 {
         list-style-image: url(./images/icon-calendar.svg);
+        cursor: pointer;
     }
     #sub-finish3 {
         list-style-image: url(./images/icon-reminders.svg);
+        cursor: pointer;
     }
     #sub-finish4 {
         list-style-image: url(./images/icon-planning.svg);
+        cursor: pointer;
     }
     .snoop {
         display: none;

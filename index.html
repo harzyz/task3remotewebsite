@@ -26,7 +26,7 @@
       <div class="menu-nav">
 
         <ul class="finish">
-          <li>Features
+          <li onclick="myFeatures()">Features
             <img src="images/icon-arrow-down.svg" id="dropDown" onclick="myFeatures()" class="drop-down"/>
           </li>
             <ul id="sub-finish">
@@ -36,7 +36,7 @@
               <li id="sub-finish4">Planning</li>
             </ul>
 
-          <li>Company
+          <li onclick="myCompany()">Company
             <img src="images/icon-arrow-down.svg" id="companyDrop" onclick="myCompany()" class="drop-down"/>
             <span id="pray1"></span>
           </li>
@@ -73,10 +73,10 @@
 
         <nav class="main-nav">
           <div class="main-nav_items">
-            <span class="main-nav_item">           
+            <span onclick="myiDont()" class="main-nav_item">           
             Features <img onclick="myiDont()" id="iDontKnow" src="images/icon-arrow-down.svg" alt=""/>
             </span>
-            <span class="main-nav_item"></span>
+            <span onclick="myiDonted()" class="main-nav_item">
             Company <img onclick="myiDonted()" id="iDontKnow2" src="images/icon-arrow-down.svg" alt=""/>
             </span>
             <span class="main-nav_item">Careers</span>
